@@ -40,3 +40,8 @@ logdirector supports the following attribute types:
 * **decimal**: Number with a fractional component
 * **string**: String of up to 256 characters
 * **text**: String with more than 256 characters
+
+Requirements
+------------
+
+The client sends POST requests using XMLHttpRequest, so it does not work with Internet Explorer version 6 and below. I decided not to implement the ActiveXObject fallback to keep it simple.
